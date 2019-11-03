@@ -4,6 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffff"
    >
 
     <androidx.appcompat.widget.Toolbar
@@ -15,18 +16,21 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:gravity="center_vertical"
-            android:src="@drawable/shoucang" />
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/shoucang"
+
+            />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
+            android:layout_gravity="right"
             android:text="注册"
             android:textSize="20sp"
             android:textColor="#1C9FF1"
+            android:layout_marginRight="10dp"
             />
-
     </androidx.appcompat.widget.Toolbar>
 
 </LinearLayout>
