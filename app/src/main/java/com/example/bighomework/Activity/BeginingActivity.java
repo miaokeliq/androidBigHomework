@@ -33,7 +33,7 @@ public class BeginingActivity extends AppCompatActivity implements View.OnClickL
     public void onClick(View v) {
         switch(v.getId()){
             case R.id.button_login:
-                Intent intent = new Intent(BeginingActivity.this, LoginActivity.class);
+                Intent intent = new Intent(BeginingActivity.this, MainActivity.class);
                 startActivity(intent);
 
         }
