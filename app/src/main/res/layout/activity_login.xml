@@ -6,21 +6,17 @@
     android:layout_height="match_parent"
     android:background="#ffff"
    >
-
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="#ffff">
-
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="30dp"
             android:layout_gravity="center_horizontal"
-            android:src="@drawable/shoucang"
-
+            android:src="@drawable/icon2"
             />
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -32,5 +28,86 @@
             android:layout_marginRight="10dp"
             />
     </androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录 Twitter。"
+        android:textSize="32sp"
+        android:layout_marginLeft="13sp"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="13dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="手机号码、邮箱地址或用户名"
+        android:textSize="17dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="13sp"
+        android:textCursorDrawable="@drawable/cursor"
+        android:theme="@style/MyEditText"
+        android:maxLines="1"
+        />
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="13dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="密码"
+        android:textSize="17dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="13sp"
+        android:textCursorDrawable="@drawable/cursor"
+        android:theme="@style/MyEditText"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:src="@drawable/eye"
+        android:layout_marginRight="13sp"
+        />
+    <Button
+        android:id="@+id/forgotButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="忘记密码?"
+        android:background="@android:color/transparent"
+        android:textColor="#807A7A"
+        />
+
+<!--   <ImageButton-->
+<!--       android:layout_margin="10dp"-->
+<!--       android:layout_width="60dp"-->
+<!--       android:layout_height="60dp"-->
+<!--       android:src="@drawable/next"-->
+<!--       android:padding="2dp"-->
+<!--       android:layout_gravity="center_horizontal"-->
+<!--       android:background="?android:attr/selectableItemBackgroundBorderless"-->
+<!--       />-->
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text=">"
+            android:textSize="60sp"
+            android:textColor="#1C9FF1"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:layout_gravity="center_horizontal"
+
+            />
+
 
 </LinearLayout>

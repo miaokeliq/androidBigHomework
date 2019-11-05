@@ -62,7 +62,11 @@
         android:background="@drawable/button_edge"
         android:text="登录"
         android:textColor="#ffff"
-        android:textSize="20sp"></Button>
+        android:textSize="20sp"
+
+        ></Button>
+
+
 
 
 </LinearLayout>
